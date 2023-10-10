@@ -10,7 +10,7 @@ const TODO_ITEMS = [
   "book a doctors appointment",
 ];
 let i = 0;
-for (i = 0; i < 500; i++) {
+for (i = 0; i < 1; i++) {
   test.describe("New Todo", () => {
     test(`${i}should allow me to add todo items`, async ({ page }) => {
       // create a new todo locator

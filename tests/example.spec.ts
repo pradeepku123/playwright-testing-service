@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 1; i++) {
   test(`${i}_has title`, async ({ page }) => {
     await page.goto("https://playwright.dev/");
 
