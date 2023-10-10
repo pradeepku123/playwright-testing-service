@@ -1,6 +1,7 @@
 import { test, expect } from "@playwright/test";
 for (let i = 0; i < 1; i++) {
   test(`${i}_has title`, async ({ page }) => {
+    test.fail();
     await page.goto("https://playwright.dev/");
 
     // Expect a title "to contain" a substring.
